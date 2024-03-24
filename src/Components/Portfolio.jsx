@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/allbooks.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "books and me";
 
 /**
  * Project list
@@ -30,30 +30,33 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+   {
+    title: " How I got sponserd by IIT Bombay",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      " A peek into how I got sponsered to visit Asisa's largest Technical Fest, Techfest, IIT Bombay. ",
+    url: "  https://www.linkedin.com/feed/update/urn:li:activity:7144055678339330048/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7144055678339330048%29  ",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
+       title: " I took an oath to Solo Travel on my Birthdays! ",
+    description:" I am a peoples' person, but taking an oath to solo travel on my birthdays has been a life changing experience.",
+    url: "  https://www.linkedin.com/feed/update/urn:li:activity:7130266552183980032/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7130266552183980032%29  ",
+  }
   {
-    title: "My Resume Site",
+     title: " My Smart India Hackathon Experience ",
+    description:    "  The prestigous hackthon hosited by Government of India, was my first ever hackathon experience. Here's how it went.",
+    url: "  https://www.linkedin.com/feed/update/urn:li:activity:7126864994893189120/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7126864994893189120%29  ",
+  }
+{ title: "  How to avoid distractions while studying ",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+   "  Wrote this from personal experince, this blog is a guide to help you avoid distractions while studying.",
+    url: "  https://higheredforall.in/blog-career-guidance/tips-to-avoid-distractions-while-studying/  ",
+}
+{
+  title: "BYE BYE Stress and and Anxiety",
+    description:"A guide to help students manage stress and anxiety in college, with tips and resources to help you through tough times.",
+    url: "https://higheredforall.in/blog-career-guidance/manage-stress-and-anxiety-in-college/",
+}
+   
 ];
 
 const Portfolio = () => {
