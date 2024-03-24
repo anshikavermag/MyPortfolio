@@ -16,27 +16,28 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/sudhabg.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "I found an asthetic background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I'm a Computer Science Engineering undergraduate student from India, but there's more to me than just being a geek. I'm passionate about entrepreneurship, fashion, culinary arts, and I'm a true aficionado of old Bollywood classics."
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+   "Java",
+  "Computer Fundamentals","Data Structures and Algorithms",
+  "Service Now Platform",
+  "Google Cloud",
+  "Content Writing",
+  "Public Speaking",
+  "Entrepreneurship",
+
 ];
 
 /**
@@ -45,8 +46,8 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "Only those who risk going too far can possibly find out how far one can go. - T.S. Eliot";
+  
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -54,7 +55,7 @@ const About = () => {
       <div
         style={{
           backgroundColor: "white",
-          width: "50%",
+          width: "40%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
