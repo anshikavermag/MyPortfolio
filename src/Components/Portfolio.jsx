@@ -19,44 +19,44 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/allbooks.jpg";
+import image from "../../images/allbooks.jpg";
 
 const imageAltText = "books and me";
 
 /**
  * Project list
  *
- * An array of objects that will be used to display for your project
+ * An array of objects that will be used to display for your projeMyportfolioct
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-   {
+  {
     title: " How I got sponserd by IIT Bombay",
     description:
       " A peek into how I got sponsered to visit Asisa's largest Technical Fest, Techfest, IIT Bombay. ",
     url: "  https://www.linkedin.com/feed/update/urn:li:activity:7144055678339330048/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7144055678339330048%29  ",
   },
   {
-       title: " I took an oath to Solo Travel on my Birthdays! ",
+      title: " I took an oath to Solo Travel on my Birthdays! ",
     description:" I am a peoples' person, but taking an oath to solo travel on my birthdays has been a life changing experience.",
     url: "  https://www.linkedin.com/feed/update/urn:li:activity:7130266552183980032/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7130266552183980032%29  ",
-  }
+  },
   {
-     title: " My Smart India Hackathon Experience ",
+    title: " My Smart India Hackathon Experience ",
     description:    "  The prestigous hackthon hosited by Government of India, was my first ever hackathon experience. Here's how it went.",
     url: "  https://www.linkedin.com/feed/update/urn:li:activity:7126864994893189120/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7126864994893189120%29  ",
-  }
+  },
 { title: "  How to avoid distractions while studying ",
     description:
-   "  Wrote this from personal experince, this blog is a guide to help you avoid distractions while studying.",
+  "  Wrote this from personal experince, this blog is a guide to help you avoid distractions while studying.",
     url: "  https://higheredforall.in/blog-career-guidance/tips-to-avoid-distractions-while-studying/  ",
-}
+},
 {
   title: "BYE BYE Stress and and Anxiety",
     description:"A guide to help students manage stress and anxiety in college, with tips and resources to help you through tough times.",
     url: "https://higheredforall.in/blog-career-guidance/manage-stress-and-anxiety-in-college/",
 }
-   
+
 ];
 
 const Portfolio = () => {
