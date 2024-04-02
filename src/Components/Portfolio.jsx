@@ -43,12 +43,11 @@ const projectList = [
   }
   {
      title: " My Smart India Hackathon Experience ",
-    description:    "  The prestigous hackthon hosited by Government of India, was my first ever hackathon experience. Here's how it went.",
+    description:"  The prestigous hackthon hosited by Government of India, was my first ever hackathon experience. Here's how it went.",
     url: "  https://www.linkedin.com/feed/update/urn:li:activity:7126864994893189120/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7126864994893189120%29  ",
   }
 { title: "  How to avoid distractions while studying ",
-    description:
-   "  Wrote this from personal experince, this blog is a guide to help you avoid distractions while studying.",
+    description: "Wrote this from personal experince, this blog is a guide to help you avoid distractions while studying.",
     url: "  https://higheredforall.in/blog-career-guidance/tips-to-avoid-distractions-while-studying/  ",
 }
 {
