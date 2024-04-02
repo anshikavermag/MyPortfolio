@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/sudhabg.jpg";
+import image from "../../__images__/sudhabg.jpg";
 
 const imageAltText = "I found an asthetic background";
 
@@ -30,7 +30,7 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-   "Java",
+  "Java",
   "Computer Fundamentals","Data Structures and Algorithms",
   "Service Now Platform",
   "Google Cloud",
